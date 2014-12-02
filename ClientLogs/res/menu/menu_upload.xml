@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-     <item android:id="@+id/menu_item_upload"
-          android:title="@string/desc_menu_save"
-          android:icon="@drawable/ic_action_upload"
-          android:showAsAction="always"/>
-
-</menu>
