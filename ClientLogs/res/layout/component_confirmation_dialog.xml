@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ConfirmationDialogLayout"
+    android:background="@color/DefaultViewBackground"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="(title)"
+        android:textColor="@color/DefaultTextLabels"
+        android:textSize="18sp"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:id="@+id/AdditionalText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="(some text goes here)"
+        android:textColor="@color/DefaultTextValues"
+        android:textSize="18sp">
+    </TextView>
+    <TextView
+        android:id="@+id/AdditionalText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="(some more text goes here)"
+        android:textColor="@color/DefaultTextValues"
+        android:textSize="18sp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/ConfirmButton"
+            android:text="@string/btn_confirm_confirm"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_rectangular_selector"
+            android:textColor="#ffffff"
+            android:textStyle="bold" >
+        </Button>
+
+        <Button
+            android:id="@+id/CancelButton"
+            android:text="@string/btn_confirm_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_rectangular_selector"
+            android:textColor="#ffffff"
+            android:textStyle="bold" >
+        </Button>
+    </LinearLayout>
+</LinearLayout>

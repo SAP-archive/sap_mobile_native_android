@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/bg_home_tile_selector"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+          <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/error_method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/DefaultTextLabels"
+                android:text="@string/desc_error_method"/>
+
+            <TextView
+                android:id="@+id/error_http_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/DefaultTextLabels"
+                android:text="@string/desc_error_http_code"/>
+
+        </RelativeLayout>
+    
+
+    <TextView
+        android:id="@+id/request_url"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_error_request_url"
+        android:textColor="@color/DefaultTextContent"
+        android:textSize="16sp" />
+
+</LinearLayout>
