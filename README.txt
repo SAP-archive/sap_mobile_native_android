@@ -1,3 +1,9 @@
+![](https://img.shields.io/badge/STATUS-NOT%20CURRENTLY%20MAINTAINED-red.svg?longCache=true&style=flat)
+
+# Important Notice
+We have decided to stop the maintenance of this public GitHub repository.
+
+
 This GIT repository contains android started projects that will help developers get started with SMP OData SDK SP05.
 
 The How To... guides associated to each project can be found on http://scn.sap.com/docs/DOC-58677#Android and they should be completed in the following order:
